@@ -1,0 +1,96 @@
+
+.box {
+    margin: auto;
+    width : 700px;
+    height: 850px;
+    border-radius: 20px;
+    border : 1px solid #3335;
+    box-shadow: 0 4px 8px 0 rgba(229, 226, 230, 0.2);
+    transition: 0.3s;
+    background : linear-gradient(to bottom right,rgb(137, 121, 150),rgb(77, 69, 81));
+}
+.box:hover {
+  box-shadow: 0px 8px 16px 0px rgb(102, 7, 204);
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+
+input {
+    background-color: #1b6b93;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+  }
+
+.card-head {
+  margin:auto;
+  width: 40vw;
+  height: 16vh;
+  box-shadow: 0 4px 8px 0 rgba(18, 2, 25, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  background : linear-gradient(to bottom right,rgb(65, 39, 76),rgb(27, 7, 38));
+}
+.card-head:hover {
+  box-shadow: 0 8px 16px 0 rgba(15, 2, 18, 0.2);
+}
+.card {
+  margin:auto;
+  width: 30vw;
+  height: 24vh;
+  box-shadow: 0 4px 8px 0 rgba(229, 226, 230, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  background : linear-gradient(to bottom right,rgb(124, 52, 124),rgb(53, 19, 72));
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(12, 1, 15, 0.2);
+}
+
+.card-mail{
+    margin:auto;
+    width: 30vw;
+    height: 16vh;
+    box-shadow: 0 4px 8px 0 rgba(229, 226, 230, 0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    background : linear-gradient(to bottom right,rgb(124, 52, 124),rgb(53, 19, 72));
+  }
+  .card-mail:hover {
+    box-shadow: 0 8px 16px 0 rgba(12, 1, 15, 0.2);
+  }
+  .homebtn {
+    background-color: #2d81c5;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .homebtn:hover {
+    opacity:1;
+  }
+
+.container {
+  padding: 2px 16px;
+  color: whitesmoke;
+}

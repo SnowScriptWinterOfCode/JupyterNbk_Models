@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Details</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+   <div class="box">
+    <form action="/face-det" method="post" align="center" enctype="multipart/form-data">
+        <div class="card-head">
+           <div class="container">
+            <h1> Employee Attendance System with Face Recognition</h1>
+           </div>
+         </div><br><br>
+
+         <h3>UPLOAD YOUR CLEAR FACE PROFILE</h3><br><br>
+         
+         <div class="card-mail">
+            <div class="container">
+                <h2>Enter Your First Name</h2>
+                <input type="text" name="name" id="name" />
+            </div><br><br>
+
+         <div class="card">
+            <div class="container">
+                <h2>Upload your Front Profile</h2>
+                <input type="file" name="faceprofile" />
+                <button type="submit" onclick="run()">UPLOAD</button><br><br><br><br>
+                <a href="/"><button type="button" class="homebtn">HOME</button></a>
+            </div>
+         </div>
+    </form>
+   </div>
+   <script defer src="script1.js"></script>
+</body>
+</html>
